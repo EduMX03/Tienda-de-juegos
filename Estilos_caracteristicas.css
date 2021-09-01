@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#CFCFCF}
+/*menu principal*/
+div.centrar{width: 1320px; margin: auto;}
+div.barrabusqueda{width: 1300px; padding: 10px; height: 100px;background-color: black;float: left}
+.barrabusqueda img{height: 30px; float: left; margin-top: 30px;}
+.menu{width: 1300px; padding: 10px; background-color: darkred; height: 50px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; float: left}
+a:link.linksmenu, a:visited.linksmenu{color:white; text-decoration: none;font-size: 20px; margin: 0px 25px; display: inline-block; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+a:hover.linksmenu, a:active.linksmenu{color:black;}
+div.Cmenu{width: 550px; margin: auto}
+div.Cbusqueda{width: 638px; margin: auto;}
+div.Cperfil{width: 250px; float: right; height: 100px; display: block; margin-right: 20px; margin-top: -60px;}
+
+
+/*menudrop*/
+.boton{background-color: darkred; color: white; padding: 10px; font-size: 20px; border: none; cursor: pointer;}
+.contmenu{position: relative; display: inline-block;}
+.contmenu-cont{display: none; position: absolute; background-color: #B1B1B1; min-width: 160px; box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);z-index: 1}
+.contmenu-cont a{color:black;padding: 10px 15px; text-decoration: none; display: block;}
+.contmenu-cont a:hover{background-color: darkred}
+.contmenu:hover .contmenu-cont{display: block}
+.contmenu:hover .boton{background-color: #1B1B1B;}
+
+/*diseño de pagina*/
+.titulo{width: 1300px; padding: 10px; background-color: #CFCFCF; height: 50px; float: left}
+.titulo h2{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 40px; display: inline;padding: 15px;}
+.producto{width: 625px; height: 700px; background-color: white;padding: 10px; margin: 10px 10px 0px 0px;float: left}
+div.descriptor{width:625px; height: 1130px; background-color: white; padding: 10px; margin-top: 10px; float: right;}
+.descriptor button{background-color: darkred;color: white;padding: 15px; font-size: 20px; border: none; cursor: cell}
+.descriptor button:hover{background-color: black;}
+.producto img{height: 650px; float: right; margin: 30px 50px;}
+.descriptor p{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";padding: 15px;}
+.descriptor h2{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size:50px; padding:15px;}
+.descriptor img{width:50px; padding:10px;}
+.descriptor input{cursor: pointer;}
+.comentarios{width:625px; height:400px;background-color:white;padding:10px; margin:10px 10px 0px 0px;float:left;}
+.comentarios textarea{margin: 10px 0px 10px 30px}
+.comentarios button{background-color:darkred; color:white; padding: 10px; font-size:18px; border:none; cursor:pointer; position:relative; top: -110px}
+.comentarios button:hover{background-color: black;}
+.Scoment{width: 550px; height:50px; background-color:#A8A8A8; padding:10px; margin:auto;}
+.Scoment p{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#CFCFCF}
+/*menu principal*/
+div.centrar{width: 1320px; margin: auto;}
+div.barrabusqueda{width: 1300px; padding: 10px; height: 100px;background-color: black;float: left}
+.barrabusqueda img{height: 30px; float: left; margin-top: 30px;}
+.menu{width: 1300px; padding: 10px; background-color: darkred; height: 50px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; float: left}
+a:link.linksmenu, a:visited.linksmenu{color:white; text-decoration: none;font-size: 20px; margin: 0px 25px; display: inline-block; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+a:hover.linksmenu, a:active.linksmenu{color:black;}
+div.Cmenu{width: 550px; margin: auto}
+div.Cbusqueda{width: 638px; margin: auto;}
+div.Cperfil{width: 250px; float: right; height: 100px; display: block; margin-right: 20px; margin-top: -60px;}
+
+/*menudrop*/
+.boton{background-color: darkred; color: white; padding: 10px; font-size: 20px; border: none; cursor: pointer;}
+.contmenu{position: relative; display: inline-block;}
+.contmenu-cont{display: none; position: absolute; background-color: #B1B1B1; min-width: 160px; box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);z-index: 1}
+.contmenu-cont a{color:black;padding: 10px 15px; text-decoration: none; display: block;}
+.contmenu-cont a:hover{background-color: darkred}
+.contmenu:hover .contmenu-cont{display: block}
+.contmenu:hover .boton{background-color: #1B1B1B;}
+
+/*codigo de la pagina*/
+div.infizq{width: 625px; height: 400px; background-color: white;padding: 10px; margin: 10px 10px 0px 0px;float: left}
+div.infder{width:625px; height: 400px; background-color: white; padding: 10px; margin-top: 10px; float: right;}
+
+img.img{width: 200px; float: left; margin:10px 20px 0px 0px;}
+h2.info{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 30px; color: black; text-decoration: none;}
+p.des{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+a.info{text-decoration: none;}
+div.terminos{width: 1300px; padding: 10px; background-color: darkred; height: 30px; float: left; margin-top: 10px;}

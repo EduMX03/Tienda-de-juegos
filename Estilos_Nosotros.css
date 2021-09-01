@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#CFCFCF}
+/*menu principal*/
+div.centrar{width: 1320px; margin: auto;}
+div.barrabusqueda{width: 1300px; padding: 10px; height: 100px;background-color: black;float: left}
+.barrabusqueda img{height: 30px; float: left; margin-top: 30px;}
+.menu{width: 1300px; padding: 10px; background-color: darkred; height: 50px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; float: left}
+a:link.linksmenu, a:visited.linksmenu{color:white; text-decoration: none;font-size: 20px; margin: 0px 25px; display: inline-block; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+a:hover.linksmenu, a:active.linksmenu{color:black;}
+div.Cmenu{width: 550px; margin: auto}
+div.Cbusqueda{width: 638px; margin: auto;}
+div.Cperfil{width: 250px; float: right; height: 100px; display: block; margin-right: 20px; margin-top: -60px;}
+
+/*menudrop*/
+.boton{background-color: darkred; color: white; padding: 10px; font-size: 20px; border: none; cursor: pointer;}
+.contmenu{position: relative; display: inline-block;}
+.contmenu-cont{display: none; position: absolute; background-color: #B1B1B1; min-width: 160px; box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);z-index: 1}
+.contmenu-cont a{color:black;padding: 10px 15px; text-decoration: none; display: block;}
+.contmenu-cont a:hover{background-color: darkred}
+.contmenu:hover .contmenu-cont{display: block}
+.contmenu:hover .boton{background-color: #1B1B1B;}
+
+/*diseño de la pagina*/
+.banner{width: 1320px; height: 500px; float: left;}
+.banner img{width: 100%; height: 100%; opacity: 0.5;}
+.texto{position: relative;top:-300px; left: 500px; width: 600px;}
+.texto h2{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: darkred; font-size: 50px;}
+.info{width: 390px; height: 300px; float: left; background-color: white; margin:10px 5px 0px 5px; padding: 20px;;}
+.info h2{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; text-align: center; }
+.info p{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; text-align: center;}
